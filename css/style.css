@@ -1,0 +1,100 @@
+body {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../images/bg.jpg");
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+.left img {
+  width: 133px;
+  padding: 5px;
+}
+.left div {
+  text-align: center;
+}
+.mid {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  top: 36px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 24px 12px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: grey;
+}
+
+.btn {
+  background: #163247;
+  background-image: -webkit-linear-gradient(top, #163247, #b82b7d);
+  background-image: -moz-linear-gradient(top, #163247, #b82b7d);
+  background-image: -ms-linear-gradient(top, #163247, #b82b7d);
+  background-image: -o-linear-gradient(top, #163247, #b82b7d);
+  background-image: linear-gradient(to bottom, #163247, #b82b7d);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3c53fc;
+  background-image: -webkit-linear-gradient(top, #3c53fc, #3498db);
+  background-image: -moz-linear-gradient(top, #3c53fc, #3498db);
+  background-image: -ms-linear-gradient(top, #3c53fc, #3498db);
+  background-image: -o-linear-gradient(top, #3c53fc, #3498db);
+  background-image: linear-gradient(to bottom, #3c53fc, #3498db);
+  text-decoration: none;
+}
+
+.form {
+  padding: 10px;
+  width: 50%;
+  border: 2px solid black;
+  margin-top: 78px;
+  margin-left: 133px;
+  border-radius: 36px;
+  text-align: center;
+}
+
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 273px;
+  margin: 10px auto;
+  border: 2px solid black;
+}
+
+.form-btn input {
+  text-align: center;
+  display: block;
+  width: 273px;
+  margin: 10px auto;
+  background-color: #b82b7d;
+}
